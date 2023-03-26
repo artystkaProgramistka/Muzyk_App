@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.space_invaders.MemoryGameActivity2"><![CDATA[
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background=#00000000
+
+
+
+
+
+    ]]>
+
+    <Space
+        android:id="@+id/space6"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+    android:background= #00000000
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top
+"
+
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/start_memory_game3" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.37">
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btMala"
+                android:layout_width="89dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                app:layout_constrainedHeight="true"
+                app:layout_constrainedWidth="true" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="91dp"
+        android:layout_height="81dp"
+        android:background="#00FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintRight_toRightOf="@+id/container"
+        app:layout_constraintStart_toStartOf="@+id/container"
+        app:layout_constraintTop_toTopOf="@+id/container" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintStart_toStartOf="@+id/container" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="330dp"
+        android:layout_height="625dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        app:adSize="LARGE_BANNER"
+        app:adUnitId="@string/ad_WybórOktawy_portrait_górny"
+        app:layout_constraintBottom_toTopOf="@+id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="325dp"
+        android:layout_height="618dp"
+        android:layout_centerHorizontal="true"
+        app:adSize="LARGE_BANNER"
+        app:adUnitId="@string/ad_WybórOktawy_portrait_dolny"
+        app:layout_constraintBottom_toBottomOf="@+id/space6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container"
+        app:layout_constraintVertical_bias="0.0" /><![CDATA[
+
+        //tools:layout_edito
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

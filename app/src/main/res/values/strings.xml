@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Muzyk_App</string>
+
+    // ADVERTISEMENTS
+    //////////////////////////////////////////////////////////////////////////////////
+    <string name="app_identifier">ca-app-pub-1393975555239769~1107497761</string>
+
+    // Main Menu
+    <string name="ad_id">ca-app-pub-1393975555239769/3247781228</string>
+    <string name="ad2_id">ca-app-pub-1393975555239769/9303366768</string>
+    <string name="ad3_id">ca-app-pub-1393975555239769/7531776634</string>
+
+    // Space Invaders
+    <string name="ad_WinningScreen_lewy">ca-app-pub-1393975555239769/7377516355</string>
+    <string name="ad_WinningScreen_prawy">ca-app-pub-1393975555239769/7356694428</string>
+
+    <string name="ad_LostScreen_lewy">ca-app-pub-1393975555239769/1762227594</string>
+    <string name="ad_LostScreen_prawy">ca-app-pub-1393975555239769/3493277515</string>
+
+    // Wybór Oktawy
+    <string name="ad_WybórOktawy_landscape_lewy">ca-app-pub-1393975555239769/1071321824</string>
+    <string name="ad_WybórOktawy_landscape_prawy">ca-app-pub-1393975555239769/2931198407</string>
+
+    <string name="ad_WybórOktawy_portrait_górny">ca-app-pub-1393975555239769/9660258285</string>
+    <string name="ad_WybórOktawy_portrait_dolny">ca-app-pub-1393975555239769/5529441588</string>
+
+    // Memory
+    <string name="ad_IluGraczy_lewy">ca-app-pub-1393975555239769/2208131917</string>
+    <string name="ad_IluGraczy_prawy">ca-app-pub-1393975555239769/9449980076</string>
+
+    <string name="ad_IluGraczy_górny">ca-app-pub-1393975555239769/6851397588</string>
+    <string name="ad_IluGraczy_dolny">ca-app-pub-1393975555239769/8028570276</string>
+
+    <string name="ad_Memory_górny">ca-app-pub-1393975555239769/2218018004</string>
+    <string name="ad_Memory_dolny">ca-app-pub-1393975555239769/9750498440</string>
+
+    <string name="ad_NewHighscore_lewy">ca-app-pub-1393975555239769/8509740405</string>
+    <string name="ad_NewHighscore_prawy">ca-app-pub-1393975555239769/2267572163</string>
+
+    // Wesołe Nutki
+    <string name="ad_WesołeNutkiMała_lewy">ca-app-pub-1393975555239769/1777705317</string>
+    <string name="ad_WesołeNutkiMała_prawy">ca-app-pub-1393975555239769/1265928799</string>
+    <string name="ad_WesołeNutkiDwykreślna_lewy">ca-app-pub-1393975555239769/6914481920</string>
+    <string name="ad_WesołeNutkiDwukreślna_prawy">ca-app-pub-1393975555239769/9512725106</string>
+    <string name="ad_WesołeNutkiRazkreślna_lewy">ca-app-pub-1393975555239769/6721257840</string>
+    <string name="ad_WesołeNutkiRazkreślna_prawy">ca-app-pub-1393975555239769/4242434165</string>
+
+</resources>

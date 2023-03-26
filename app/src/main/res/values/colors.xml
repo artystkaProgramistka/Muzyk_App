@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color> ff931e
+
+    // memory game
+    <color name="darkOrange">#FF931E</color>
+    <color name="lightOrange">#FFBE78</color>
+        // mode2 = 3
+    <color name="lightBlue">#C9F4FF</color>
+    <color name="darkBlue">#A7E3F2</color>
+    <color name="black">#000000</color>
+    <color name="darkGray">#3D424E</color>
+
+</resources>
